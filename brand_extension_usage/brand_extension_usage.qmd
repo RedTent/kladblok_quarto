@@ -1,0 +1,23 @@
+---
+title: "brand extension usage"
+format: html
+editor: visual
+# theme: 
+#   - vapor
+#   - brand
+---
+
+Let op dat er een **\_quarto.yml** nodig is voor correcte werking
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| eval: false
+quarto::quarto_add_extension("HHSK-wkl/brand_hhsk")
+```
