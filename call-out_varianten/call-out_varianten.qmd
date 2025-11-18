@@ -1,0 +1,39 @@
+---
+title: "Call-out varianten"
+format: html
+editor: visual
+---
+
+::: callout-note
+## Default setting
+
+Met inhoud
+:::
+
+::: {.callout-note appearance="simple"}
+## Captiontekst
+
+Simple
+:::
+
+::: {.callout-note icon="false"}
+## geen icon
+
+{{< lipsum 1 >}}
+:::
+
+::: {.callout-note icon="false" appearance="simple"}
+geen icon en geen titel
+:::
+
+::: {.callout-note appearance="minimal"}
+
+## Minimal
+:::
+
+::: {.callout-note appearance="minimal"}
+Minimal
+:::
+
+
+NB er wordt altijd ruimte gelaten voor een titel, ook als die er niet is.
