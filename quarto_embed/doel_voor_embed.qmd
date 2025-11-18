@@ -1,0 +1,13 @@
+---
+title: "Doel voor embed"
+format: html
+editor: visual
+---
+
+## 
+
+{{< embed bron_voor_embed.qmd#fig-pressure >}}
+
+Let op. Als de background job nog draait kan dat problemen geven bij het opnieuw renderen.
+
+Het gebruik van embed maakt een extra rendering van het embedded bestand.
